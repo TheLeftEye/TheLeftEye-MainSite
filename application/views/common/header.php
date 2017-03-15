@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="TheLeftEye is an organisation comprising of hard working and innovative professionals whose sole purpose is to provide top-notch solutions for our clients' every need.">
 	<meta name="author" content="TheLeftEye-Team">
-	<meta name="keywords" content="augmented reality,android,android application,web design,games,virtual reality,desktop application,why so serious,iphone,best android application,augment application,premium website,customised Website,trending application,theme based website">
+	<meta name="keywords" content="thelefteye,augmented reality,android,android application,web design,games,virtual reality,desktop application,why so serious,iphone,best android application,augment application,premium website,customised Website,trending application,theme based website">
 
 	<link rel="icon" href="<?php echo HTTP_IMAGES_PATH."favicon.jpg"; ?>">
 	<title>TheLeftEye - Innovation</title>
