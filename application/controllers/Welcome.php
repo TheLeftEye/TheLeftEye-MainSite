@@ -53,8 +53,11 @@ class Welcome extends CI_Controller {
 		Email: $email
 		";
 		
+		$config = Array(
+			'mailtype' => 'html',	
+		);
 		// Load Email Library
-		$this->load->library('email');
+		$this->load->library('email', $config);
 		
 		$this->email->from('info@thelefteye.in', 'The left Eye');
 		$this->email->to('support@thelefteye.in');
@@ -96,8 +99,11 @@ class Welcome extends CI_Controller {
 		$send_data .= "<br>Phone: ".$phone;
 		$send_data .= "<br>Address: ".$address;
 		
+		$config = Array(
+			'mailtype' => 'html',	
+		);
 		// Load Email Library
-		$this->load->library('email');
+		$this->load->library('email', $config);
 		
 		$this->email->from('info@thelefteye.in', 'The left Eye');
 		$this->email->to('support@thelefteye.in');
