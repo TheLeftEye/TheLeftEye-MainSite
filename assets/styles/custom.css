@@ -1,0 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+#artiststhumbnail a img {
+	display:block;
+	margin:auto;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+p > a:hover{
+	color: #d9d9d9;
+	text-decoration:  underline;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:  1% 0 1% 0;
+}
+._12 {
+	font-size: 1.2em;
+}
+._14 {
+	font-size: 1.4em;
+}
+ul {
+	padding:0;
+	list-style: none;
+}
+.footer-social-icons {
+	width: 350px;
+	display:block;
+	margin: 0 auto;
+}
+.social-icon {
+	color: #fff;
+}
+ul.social-icons {
+	margin-top: 10px;
+}
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+	height: 100px;
+}
+.social-icons a{
+	color: #fff;
+	text-decoration: none;
+}
+.fa{
+	margin-right: 5px;
+}
+.fa-facebook,.fa-twitter, .fa-rss, .fa-youtube, .fa-linkedin, .fa-google-plus{
+	padding:10px 14px;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	background-color: #322f30;
+}
+.fa-facebook:hover {background-color: #3d5b99;}
+.fa-twitter:hover {background-color: #00aced;}
+.fa-rss:hover {background-color: #eb8231;}
+.fa-youtube:hover {background-color: #e64a41;}
+.fa-linkedin:hover {background-color: #0073a4;}
+.fa-google-plus:hover {background-color: #e25714;}
+
+.li-info {
+	margin: 10px 0;
+	color: #c2c3c3;
+	font-size: 20px;
+}
+.ul-info {
+	padding-left: 50px;
+}
+.product-points{
+	list-style-type: circle;
+}
+
+.light{
+	color: #FF8F00;
+}
+
+#message_input{
+	height: 100px;
+}
+
+.navbar .light{
+	font-weight: bold;
+}
+
+#para, #first-para, .para{
+	text-align:justify;
+	color: #c2c3c3;
+	font-size: 20px;
+}
+#first-para{
+	padding-top: 30px;
+}
+#quote{
+	height:40px;
+	width:100%;
+	color:#FF8F00;
+	font-family:AR BERKLEY;
+	font-size:25px;
+	text-align:center;
+}
+
+.rectangle {
+	width: 250px;
+	height: 150px;
+}
+.rectangle_text{
+	color:white;
+	font-size:20px;
+	margin:20px 20px;
+}
+.rectangle_png{
+	float:right;
+	margin-right:50px;
+}
+.rectangle:hover
+{
+	box-shadow: 0px 0px 50px #000000;
+	z-index: 2;
+	-webkit-transition: all 100ms ease-in;
+	-webkit-transform: scale(1.5);
+	-ms-transition: all 100ms ease-in;
+	-ms-transform: scale(1.5);   
+	-moz-transition: all 100ms ease-in;
+	-moz-transform: scale(1.5);
+	transition: all 100ms ease-in;
+	transform: scale(1.1);
+}
+.page_container{
+	padding-top: 80px;
+}
+
+.glyphicon{
+	padding-right: 20px;
+}
+
+
+.hexagon {
+	position: relative;
+	width: 300px; 
+	height: 173.21px;
+	margin: 86.60px 0;
+	background-image: url('../images/poly.png');
+	background-size: auto 339.4820px;
+	background-position: center;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+	border-left: solid 3px #fc9803;
+	border-right: solid 3px #fc9803;
+}
+
+.hexTop,
+.hexBottom {
+	position: absolute;
+	z-index: 1;
+	width: 212.13px;
+	height: 212.13px;
+	overflow: hidden;
+	-webkit-transform: scaleY(0.5774) rotate(-45deg);
+	-ms-transform: scaleY(0.5774) rotate(-45deg);
+	transform: scaleY(0.5774) rotate(-45deg);
+	background: inherit;
+	left: 40.93px;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+	content: "";
+	position: absolute;
+	width: 294.0000px;
+	height: 169.74097914175px;
+	-webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-84.8705px);
+	-ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-84.8705px);
+	transform:          rotate(45deg) scaleY(1.7321) translateY(-84.8705px);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	background: inherit;
+}
+
+.hexTop {
+	top: -106.0660px;
+	border-top: solid 4.2426px #fc9803;
+	border-right: solid 4.2426px #fc9803;
+}
+
+.hexTop:after {
+	background-position: center top;
+}
+
+.hexBottom {
+	bottom: -106.0660px;
+	border-bottom: solid 4.2426px #fc9803;
+	border-left: solid 4.2426px #fc9803;
+}
+
+.hexBottom:after {
+	background-position: center bottom;
+}
+
+.hexagon:after {
+	content: "";
+	position: absolute;
+	top: 1.7321px;
+	left: 0;
+	width: 294.0000px;
+	height: 169.7410px;
+	z-index: 2;
+	background: inherit;
+}
+
+
+blockquote {
+	font-family: Georgia, serif;
+	position: relative;
+	margin: 0.5em;
+	padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+	font-family: Georgia, serif;
+	position: absolute;
+	font-size: 6em;
+	line-height: 1;
+	top: 0;
+	left: 0;
+	content: "\201C";
+}
+blockquote:after {
+	font-family: Georgia, serif;
+	position: absolute;
+	/* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+	float:right;
+	font-size:6em;
+	line-height: 1;
+	right:0;
+	bottom:-0.5em;
+	content: "\201D";
+}
+blockquote footer {
+	padding: 0 2em 0 0;
+	text-align:right;
+}
+blockquote cite:before {
+	content: "\2013";
+}

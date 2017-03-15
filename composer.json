@@ -1,0 +1,19 @@
+{
+	"description": "The Left Eye",
+	"name": "thelefteye",
+	"type": "project",
+	"homepage": "https://thelefteye.in",
+	"license": "",
+	"support": {
+		"site": "http://www.thelefteye.in/contact",
+	},
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	}
+}
